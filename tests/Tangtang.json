@@ -1,0 +1,788 @@
+{
+  "template_id": 45,
+  "str_id": "chr_0027_tangtang",
+  "name": "Tangtang",
+  "rarity": 6,
+  "element": "Cryst",
+  "profession": "CASTER",
+  "weapon_type": "Pistol",
+  "level": 85,
+  "potential_level": 0,
+  "splash_url": "https://enka.network/ui/ef/splash/chr_0027_tangtang.webp",
+  "bg_url": "https://enka.network/ui/ef/charinfo/bg_charinfo_chr_0027_tangtang.png",
+  "round_icon_url": "https://enka.network/ui/ef/charroundicon/icon_round_chr_0027_tangtang.png",
+  "main_attribute": {
+    "attri_id": "40",
+    "attri_name": "Agi_base",
+    "url": "https://enka.network/ui/ef/attributeicon/Agi.png"
+  },
+  "sub_attribute": {
+    "attri_id": "39",
+    "attri_name": "Str_base",
+    "url": "https://enka.network/ui/ef/attributeicon/Str.png"
+  },
+  "base_atk": {
+    "attri_id": "2",
+    "attri_name": "Atk_base",
+    "url": "https://enka.network/ui/ef/attributeicon/Atk.png",
+    "value": 304,
+    "is_float": false
+  },
+  "base_hp": {
+    "attri_id": "1",
+    "attri_name": "MaxHp_base",
+    "url": "https://enka.network/ui/ef/attributeicon/MaxHp.png",
+    "value": 5214,
+    "is_float": false
+  },
+  "base_attribute": [
+    {
+      "attri_id": "4",
+      "attri_name": "PhysicalDamageTakenScalar_base",
+      "url": "https://enka.network/ui/ef/attributeicon/PhysicalDamageTakenScalar.png",
+      "value": 1,
+      "is_float": false
+    },
+    {
+      "attri_id": "5",
+      "attri_name": "FireDamageTakenScalar_base",
+      "url": "https://enka.network/ui/ef/attributeicon/FireDamageTakenScalar.png",
+      "value": 1,
+      "is_float": false
+    },
+    {
+      "attri_id": "6",
+      "attri_name": "PulseDamageTakenScalar_base",
+      "url": "https://enka.network/ui/ef/attributeicon/PulseDamageTakenScalar.png",
+      "value": 1,
+      "is_float": false
+    },
+    {
+      "attri_id": "7",
+      "attri_name": "CrystDamageTakenScalar_base",
+      "url": "https://enka.network/ui/ef/attributeicon/CrystDamageTakenScalar.png",
+      "value": 1,
+      "is_float": false
+    },
+    {
+      "attri_id": "8",
+      "attri_name": "Weight",
+      "url": "https://enka.network/ui/ef/attributeicon/Weight.png",
+      "value": 1,
+      "is_float": false
+    },
+    {
+      "attri_id": "9",
+      "attri_name": "CriticalRate_base",
+      "url": "https://enka.network/ui/ef/attributeicon/CriticalRate.png",
+      "value": 0.05,
+      "is_float": true
+    },
+    {
+      "attri_id": "11",
+      "attri_name": "Hatred",
+      "url": "https://enka.network/ui/ef/attributeicon/Hatred.png",
+      "value": 1,
+      "is_float": false
+    },
+    {
+      "attri_id": "12",
+      "attri_name": "NormalAttackRange",
+      "url": "https://enka.network/ui/ef/attributeicon/NormalAttackRange.png",
+      "value": 10,
+      "is_float": false
+    },
+    {
+      "attri_id": "15",
+      "attri_name": "AttackRate",
+      "url": "https://enka.network/ui/ef/attributeicon/AttackRate.png",
+      "value": 1,
+      "is_float": false
+    },
+    {
+      "attri_id": "25",
+      "attri_name": "PhysicalInflictionDamageScalar",
+      "url": "https://enka.network/ui/ef/attributeicon/PhysicalInflictionDamageScalar.png",
+      "value": 1.2142857142857142,
+      "is_float": true
+    },
+    {
+      "attri_id": "39",
+      "attri_name": "Str_base",
+      "url": "https://enka.network/ui/ef/attributeicon/Str.png",
+      "value": 117.41973491714286,
+      "is_float": true
+    },
+    {
+      "attri_id": "40",
+      "attri_name": "Agi_base",
+      "url": "https://enka.network/ui/ef/attributeicon/Agi.png",
+      "value": 170.84536086285715,
+      "is_float": true
+    },
+    {
+      "attri_id": "41",
+      "attri_name": "Wisd_base",
+      "url": "https://enka.network/ui/ef/attributeicon/Wisd.png",
+      "value": 81.43151694014286,
+      "is_float": true
+    },
+    {
+      "attri_id": "42",
+      "attri_name": "Will_base",
+      "url": "https://enka.network/ui/ef/attributeicon/Will.png",
+      "value": 96.90721650714285,
+      "is_float": true
+    },
+    {
+      "attri_id": "48",
+      "attri_name": "NaturalDamageTakenScalar_base",
+      "url": "https://enka.network/ui/ef/attributeicon/NaturalDamageTakenScalar.png",
+      "value": 1,
+      "is_float": false
+    },
+    {
+      "attri_id": "49",
+      "attri_name": "IgniteDamageScalar",
+      "url": "https://enka.network/ui/ef/attributeicon/IgniteDamageScalar.png",
+      "value": 1.4285714285714286,
+      "is_float": true
+    },
+    {
+      "attri_id": "60",
+      "attri_name": "EtherDamageTakenScalar_base",
+      "url": "https://enka.network/ui/ef/attributeicon/EtherDamageTakenScalar.png",
+      "value": 1,
+      "is_float": false
+    },
+    {
+      "attri_id": "90",
+      "attri_name": "NormalAttackStartRange",
+      "url": "https://enka.network/ui/ef/attributeicon/NormalAttackStartRange.png",
+      "value": 7.9,
+      "is_float": true
+    }
+  ],
+  "weapon": {
+    "weapon_id": "1778",
+    "name": "Opus: The Living",
+    "rarity": 5,
+    "weapon_type": "Pistol",
+    "level": 66,
+    "refine_lv": 1,
+    "breakthrough_lv": 3,
+    "base_atk": 311.0,
+    "skill_levels": [
+      7,
+      3,
+      3
+    ],
+    "icon_url": "https://enka.network/ui/ef/itemicon/wpn_pistol_0006.png",
+    "skills": [
+      {
+        "skill_id": "2439",
+        "tag_id": "attr_agi",
+        "prop_id": "40",
+        "base_lvl": 3,
+        "max_lvl": 8,
+        "current_lvl": 7,
+        "formula": "BaseAddition",
+        "prop_name": "Agi_base",
+        "icon_url": "https://enka.network/ui/ef/attributeicon/Agi.png",
+        "value": 92.0
+      },
+      {
+        "skill_id": "2452",
+        "tag_id": "attr_magicdam",
+        "prop_id": [
+          "51",
+          "52",
+          "53",
+          "54",
+          "55"
+        ],
+        "base_lvl": 2,
+        "max_lvl": 7,
+        "current_lvl": 3,
+        "formula": [
+          "BaseAddition",
+          "BaseAddition",
+          "BaseAddition",
+          "BaseAddition",
+          "BaseAddition"
+        ],
+        "prop_name": [
+          "FireDamageIncrease_base",
+          "PulseDamageIncrease_base",
+          "CrystDamageIncrease_base",
+          "NaturalDamageIncrease_base",
+          "EtherDamageIncrease_base"
+        ],
+        "icon_url": [
+          "https://enka.network/ui/ef/attributeicon/FireDamageIncrease.png",
+          "https://enka.network/ui/ef/attributeicon/PulseDamageIncrease.png",
+          "https://enka.network/ui/ef/attributeicon/CrystDamageIncrease.png",
+          "https://enka.network/ui/ef/attributeicon/NaturalDamageIncrease.png",
+          "https://enka.network/ui/ef/attributeicon/EtherDamageIncrease.png"
+        ],
+        "value": [
+          0.116,
+          0.116,
+          0.116,
+          0.116,
+          0.116
+        ]
+      },
+      {
+        "skill_id": "2225",
+        "tag_id": "magabn",
+        "prop_id": "9",
+        "base_lvl": 2,
+        "max_lvl": 5,
+        "current_lvl": 3,
+        "formula": "BaseAddition",
+        "prop_name": "CriticalRate_base",
+        "icon_url": "https://enka.network/ui/ef/attributeicon/CriticalRate.png",
+        "value": 0.042
+      }
+    ],
+    "main_stat": {
+      "prop_id": "2",
+      "prop_name": "Atk_base",
+      "value": 311,
+      "formula": "BaseAddition",
+      "icon_url": "https://enka.network/ui/ef/attributeicon/Atk.png"
+    },
+    "gem": {
+      "rarity": 5,
+      "name": "Fracture",
+      "inner_icon_url": "https://enka.network/ui/ef/itemicon/icon_crit.png",
+      "cover_icon_url": "https://enka.network/ui/ef/itemicon/item_gem_rarity_5.png"
+    }
+  },
+  "equips": [
+    {
+      "slot_id": 1,
+      "template_id": 3259,
+      "rarity": 5,
+      "suit_id": "suit_attri01",
+      "icon_url": "https://enka.network/ui/ef/itemicon/item_equip_t4_suit_attri01_body_05.png",
+      "attr_modifiers": [
+        {
+          "index": 0,
+          "attr_type": 3,
+          "attr_name": "Def_base",
+          "formula": "BaseAddition",
+          "enhance_level": 1,
+          "value": 56.0,
+          "icon": "https://enka.network/ui/ef/attributeicon/Def.png"
+        },
+        {
+          "index": 1,
+          "attr_type": 40,
+          "attr_name": "Agi_base",
+          "formula": "BaseAddition",
+          "enhance_level": 3,
+          "value": 104.0,
+          "icon": "https://enka.network/ui/ef/attributeicon/Agi.png"
+        },
+        {
+          "index": 2,
+          "attr_type": 39,
+          "attr_name": "Str_base",
+          "formula": "BaseAddition",
+          "enhance_level": 1,
+          "value": 58.0,
+          "icon": "https://enka.network/ui/ef/attributeicon/Str.png"
+        },
+        {
+          "index": 3,
+          "attr_type": 53,
+          "attr_name": "CrystDamageIncrease_base",
+          "formula": "BaseAddition",
+          "enhance_level": 1,
+          "value": 0.115,
+          "icon": "https://enka.network/ui/ef/attributeicon/CrystDamageIncrease.png"
+        },
+        {
+          "index": 4,
+          "attr_type": 52,
+          "attr_name": "PulseDamageIncrease_base",
+          "formula": "BaseAddition",
+          "enhance_level": 1,
+          "value": 0.115,
+          "icon": "https://enka.network/ui/ef/attributeicon/PulseDamageIncrease.png"
+        }
+      ]
+    },
+    {
+      "slot_id": 3,
+      "template_id": 3252,
+      "rarity": 5,
+      "suit_id": "suit_attri01",
+      "icon_url": "https://enka.network/ui/ef/itemicon/item_equip_t4_suit_attri01_edc_07.png",
+      "attr_modifiers": [
+        {
+          "index": 0,
+          "attr_type": 3,
+          "attr_name": "Def_base",
+          "formula": "BaseAddition",
+          "enhance_level": 1,
+          "value": 21.0,
+          "icon": "https://enka.network/ui/ef/attributeicon/Def.png"
+        },
+        {
+          "index": 1,
+          "attr_type": 40,
+          "attr_name": "Agi_base",
+          "formula": "BaseAddition",
+          "enhance_level": 3,
+          "value": 38.0,
+          "icon": "https://enka.network/ui/ef/attributeicon/Agi.png"
+        },
+        {
+          "index": 2,
+          "attr_type": 39,
+          "attr_name": "Str_base",
+          "formula": "BaseAddition",
+          "enhance_level": 2,
+          "value": 23.0,
+          "icon": "https://enka.network/ui/ef/attributeicon/Str.png"
+        },
+        {
+          "index": 3,
+          "attr_type": 32,
+          "attr_name": "NormalSkillDamageIncrease_base",
+          "formula": "BaseAddition",
+          "enhance_level": 2,
+          "value": 0.455,
+          "icon": "https://enka.network/ui/ef/attributeicon/NormalSkillDamageIncrease.png"
+        }
+      ]
+    },
+    {
+      "slot_id": 2,
+      "template_id": 3252,
+      "rarity": 5,
+      "suit_id": "suit_attri01",
+      "icon_url": "https://enka.network/ui/ef/itemicon/item_equip_t4_suit_attri01_edc_07.png",
+      "attr_modifiers": [
+        {
+          "index": 0,
+          "attr_type": 3,
+          "attr_name": "Def_base",
+          "formula": "BaseAddition",
+          "enhance_level": 1,
+          "value": 21.0,
+          "icon": "https://enka.network/ui/ef/attributeicon/Def.png"
+        },
+        {
+          "index": 1,
+          "attr_type": 40,
+          "attr_name": "Agi_base",
+          "formula": "BaseAddition",
+          "enhance_level": 3,
+          "value": 38.0,
+          "icon": "https://enka.network/ui/ef/attributeicon/Agi.png"
+        },
+        {
+          "index": 2,
+          "attr_type": 39,
+          "attr_name": "Str_base",
+          "formula": "BaseAddition",
+          "enhance_level": 3,
+          "value": 25.0,
+          "icon": "https://enka.network/ui/ef/attributeicon/Str.png"
+        },
+        {
+          "index": 3,
+          "attr_type": 32,
+          "attr_name": "NormalSkillDamageIncrease_base",
+          "formula": "BaseAddition",
+          "enhance_level": 3,
+          "value": 0.497,
+          "icon": "https://enka.network/ui/ef/attributeicon/NormalSkillDamageIncrease.png"
+        }
+      ]
+    },
+    {
+      "slot_id": 0,
+      "template_id": 2985,
+      "rarity": 5,
+      "suit_id": "suit_criti01",
+      "icon_url": "https://enka.network/ui/ef/itemicon/item_equip_t4_suit_criti01_hand_01.png",
+      "attr_modifiers": [
+        {
+          "index": 0,
+          "attr_type": 3,
+          "attr_name": "Def_base",
+          "formula": "BaseAddition",
+          "enhance_level": 1,
+          "value": 42.0,
+          "icon": "https://enka.network/ui/ef/attributeicon/Def.png"
+        },
+        {
+          "index": 1,
+          "attr_type": 40,
+          "attr_name": "Agi_base",
+          "formula": "BaseAddition",
+          "enhance_level": 3,
+          "value": 78.0,
+          "icon": "https://enka.network/ui/ef/attributeicon/Agi.png"
+        },
+        {
+          "index": 2,
+          "attr_type": 39,
+          "attr_name": "Str_base",
+          "formula": "BaseAddition",
+          "enhance_level": 2,
+          "value": 47.0,
+          "icon": "https://enka.network/ui/ef/attributeicon/Str.png"
+        },
+        {
+          "index": 3,
+          "attr_type": 32,
+          "attr_name": "NormalSkillDamageIncrease_base",
+          "formula": "BaseAddition",
+          "enhance_level": 2,
+          "value": 0.38,
+          "icon": "https://enka.network/ui/ef/attributeicon/NormalSkillDamageIncrease.png"
+        }
+      ]
+    }
+  ],
+  "suit_sets": {
+    "suit_id": "suit_attri01",
+    "name": "-5935672926878943329",
+    "icon_url": "https://enka.network/ui/ef/equipmentlogobigwhite/icon_pack_wuling_suit_attri01.png",
+    "pieces_equipped": 3,
+    "is_active": true,
+    "active_bonus": {
+      "tagid": "",
+      "propmap": [
+        {
+          "prop_id": "2",
+          "prop_name": "Atk_base",
+          "value": 0.15,
+          "formula": "BaseMultiplier"
+        }
+      ]
+    }
+  },
+  "skills": {
+    "normal_skill": "chr_0027_tangtang_NormalSkill",
+    "ultimate_skill": "chr_0027_tangtang_UltimateSkill",
+    "combo_skill": "chr_0027_tangtang_ComboSkill",
+    "disp_normal_atk_skill": "chr_0027_tangtang_NormalAttack",
+    "skills": [
+      {
+        "skill_id": "chr_0027_tangtang_NormalAttack",
+        "icon_url": "https://enka.network/ui/ef/skillicon/icon_attack_pistol.png",
+        "element": "Cryst",
+        "level": 1,
+        "max_level": 12,
+        "enhanced_level": 1
+      },
+      {
+        "skill_id": "chr_0027_tangtang_NormalSkill",
+        "icon_url": "https://enka.network/ui/ef/skillicon/icon_skill_tangtang_01.png",
+        "element": "Cryst",
+        "level": 10,
+        "max_level": 12,
+        "enhanced_level": 10
+      },
+      {
+        "skill_id": "chr_0027_tangtang_UltimateSkill",
+        "icon_url": "https://enka.network/ui/ef/skillicon/icon_ultimate_skill_tangtang_01.png",
+        "element": "Cryst",
+        "level": 9,
+        "max_level": 12,
+        "enhanced_level": 9
+      },
+      {
+        "skill_id": "chr_0027_tangtang_ComboSkill",
+        "icon_url": "https://enka.network/ui/ef/skillicon/icon_combo_skill_tangtang_01.png",
+        "element": "Cryst",
+        "level": 9,
+        "max_level": 12,
+        "enhanced_level": 9
+      }
+    ]
+  },
+  "talents": {
+    "latest_break_node": "charBreak70",
+    "attr_nodes": {
+      "attri_id": "40",
+      "attri_name": "Agi_base",
+      "formula": "BaseAddition",
+      "icon_url": "https://enka.network/ui/ef/attributeicon/Agi.png",
+      "values": [
+        10,
+        15,
+        15,
+        20
+      ],
+      "total_value": 60,
+      "level": 4
+    },
+    "passive_nodes": [
+      {
+        "node_id": "chr_0027_tangtang_passive_skill_0_2",
+        "icon_url": "https://enka.network/ui/ef/icon_talent_tangtang_01.png",
+        "level": 2,
+        "index": 0,
+        "is_max": true,
+        "type": 4
+      },
+      {
+        "node_id": "chr_0027_tangtang_passive_skill_1_2",
+        "icon_url": "https://enka.network/ui/ef/icon_talent_tangtang_02.png",
+        "level": 2,
+        "index": 1,
+        "is_max": true,
+        "type": 4
+      }
+    ],
+    "factory_nodes": [
+      {
+        "node_id": "fac_chr_0027_tangtang_0_2",
+        "icon_url": "https://enka.network/ui/ef/spaceshipskillicon/facskill_spaceship_plant_power_consume.png",
+        "level": 2,
+        "index": 2,
+        "is_max": true,
+        "type": 5
+      },
+      {
+        "node_id": "fac_chr_0027_tangtang_1_2",
+        "icon_url": "https://enka.network/ui/ef/spaceshipskillicon/facskill_spaceship_plant_flower.png",
+        "level": 2,
+        "index": 3,
+        "is_max": true,
+        "type": 5
+      }
+    ],
+    "potential_attributes": []
+  },
+  "stats": {
+    "str": 270,
+    "agi": 580,
+    "wisd": 81,
+    "will": 96,
+    "hp": 6564,
+    "atk": 3139,
+    "defense": 140,
+    "crit_rate": 0.092,
+    "crit_dmg": 0.5,
+    "arts_intensity": 0.0,
+    "healing_received_bonus": 0.096,
+    "ultimate_gain_efficiency": 1.0,
+    "healing_bonus": 0.0,
+    "normal_atk_dmg_bonus": 0.0,
+    "normal_skill_dmg_bonus": 1.3319999999999999,
+    "combo_skill_dmg_bonus": 0.0,
+    "ult_skill_dmg_bonus": 0.0,
+    "physical_dmg_bonus": 0.0,
+    "fire_dmg_bonus": 0.116,
+    "pulse_dmg_bonus": 0.231,
+    "cryst_dmg_bonus": 0.231,
+    "natural_dmg_bonus": 0.116,
+    "ether_dmg_bonus": 0.116,
+    "infliction_enhance": 0.0
+  },
+  "detailed_stats": {
+    "all": [
+      {
+        "value": 6564,
+        "icon_url": "https://enka.network/ui/ef/attributeicon/MaxHp.png",
+        "stat_id": "1",
+        "name": "HP",
+        "main_attri": false,
+        "sub_attri": false
+      },
+      {
+        "value": 3139,
+        "icon_url": "https://enka.network/ui/ef/attributeicon/Atk.png",
+        "stat_id": "2",
+        "name": "Attack",
+        "main_attri": false,
+        "sub_attri": false
+      },
+      {
+        "value": 140,
+        "icon_url": "https://enka.network/ui/ef/attributeicon/Def.png",
+        "stat_id": "3",
+        "name": "Defense",
+        "main_attri": false,
+        "sub_attri": false
+      },
+      {
+        "value": 0.092,
+        "icon_url": "https://enka.network/ui/ef/attributeicon/CriticalRate.png",
+        "stat_id": "9",
+        "name": "Critical Rate",
+        "main_attri": false,
+        "sub_attri": false
+      },
+      {
+        "value": 0.5,
+        "icon_url": "https://enka.network/ui/ef/attributeicon/CriticalDamageIncrease.png",
+        "stat_id": "10",
+        "name": "Critical DMG",
+        "main_attri": false,
+        "sub_attri": false
+      },
+      {
+        "value": 0.0,
+        "icon_url": "https://enka.network/ui/ef/attributeicon/NormalAttackDamageIncrease.png",
+        "stat_id": "17",
+        "name": "Basic Attack DMG Bonus",
+        "main_attri": false,
+        "sub_attri": false
+      },
+      {
+        "value": 0.0,
+        "icon_url": "https://enka.network/ui/ef/attributeicon/UltimateSkillDamageIncrease.png",
+        "stat_id": "28",
+        "name": "Ultimate DMG Bonus",
+        "main_attri": false,
+        "sub_attri": false
+      },
+      {
+        "value": 0.0,
+        "icon_url": "https://enka.network/ui/ef/attributeicon/HealOutputIncrease.png",
+        "stat_id": "29",
+        "name": "Treatment Bonus",
+        "main_attri": false,
+        "sub_attri": false
+      },
+      {
+        "value": 0.096,
+        "icon_url": "https://enka.network/ui/ef/attributeicon/HealTakenIncrease.png",
+        "stat_id": "30",
+        "name": "Treatment Received Bonus",
+        "main_attri": false,
+        "sub_attri": false
+      },
+      {
+        "value": 1.3319999999999999,
+        "icon_url": "https://enka.network/ui/ef/attributeicon/NormalSkillDamageIncrease.png",
+        "stat_id": "32",
+        "name": "Battle Skill DMG Bonus",
+        "main_attri": false,
+        "sub_attri": false
+      },
+      {
+        "value": 0.0,
+        "icon_url": "https://enka.network/ui/ef/attributeicon/ComboSkillDamageIncrease.png",
+        "stat_id": "33",
+        "name": "Combo Skill DMG Bonus",
+        "main_attri": false,
+        "sub_attri": false
+      },
+      {
+        "value": 270,
+        "icon_url": "https://enka.network/ui/ef/attributeicon/Str.png",
+        "stat_id": "39",
+        "name": "Strength",
+        "main_attri": false,
+        "sub_attri": true
+      },
+      {
+        "value": 580,
+        "icon_url": "https://enka.network/ui/ef/attributeicon/Agi.png",
+        "stat_id": "40",
+        "name": "Agility",
+        "main_attri": true,
+        "sub_attri": false
+      },
+      {
+        "value": 81,
+        "icon_url": "https://enka.network/ui/ef/attributeicon/Wisd.png",
+        "stat_id": "41",
+        "name": "Intellect",
+        "main_attri": false,
+        "sub_attri": false
+      },
+      {
+        "value": 96,
+        "icon_url": "https://enka.network/ui/ef/attributeicon/Will.png",
+        "stat_id": "42",
+        "name": "Will",
+        "main_attri": false,
+        "sub_attri": false
+      },
+      {
+        "value": 1.0,
+        "icon_url": "https://enka.network/ui/ef/attributeicon/UltimateSpGainScalar.png",
+        "stat_id": "44",
+        "name": "Ultimate Gain Efficiency",
+        "main_attri": false,
+        "sub_attri": false
+      },
+      {
+        "value": 0.0,
+        "icon_url": "https://enka.network/ui/ef/attributeicon/PhysicalDamageIncrease.png",
+        "stat_id": "50",
+        "name": "Physical DMG Bonus",
+        "main_attri": false,
+        "sub_attri": false
+      },
+      {
+        "value": 0.116,
+        "icon_url": "https://enka.network/ui/ef/attributeicon/FireDamageIncrease.png",
+        "stat_id": "51",
+        "name": "Heat DMG Bonus",
+        "main_attri": false,
+        "sub_attri": false
+      },
+      {
+        "value": 0.231,
+        "icon_url": "https://enka.network/ui/ef/attributeicon/PulseDamageIncrease.png",
+        "stat_id": "52",
+        "name": "Electric DMG Bonus",
+        "main_attri": false,
+        "sub_attri": false
+      },
+      {
+        "value": 0.231,
+        "icon_url": "https://enka.network/ui/ef/attributeicon/CrystDamageIncrease.png",
+        "stat_id": "53",
+        "name": "Cryo DMG Bonus",
+        "main_attri": false,
+        "sub_attri": false
+      },
+      {
+        "value": 0.116,
+        "icon_url": "https://enka.network/ui/ef/attributeicon/NaturalDamageIncrease.png",
+        "stat_id": "54",
+        "name": "Nature DMG Bonus",
+        "main_attri": false,
+        "sub_attri": false
+      },
+      {
+        "value": 0.116,
+        "icon_url": "https://enka.network/ui/ef/attributeicon/EtherDamageIncrease.png",
+        "stat_id": "55",
+        "name": "Ether DMG Bonus",
+        "main_attri": false,
+        "sub_attri": false
+      },
+      {
+        "value": 0.0,
+        "icon_url": "https://enka.network/ui/ef/attributeicon/PhysicalAndSpellInflictionEnhance.png",
+        "stat_id": "87",
+        "name": "Arts Intensity",
+        "main_attri": false,
+        "sub_attri": false
+      },
+      {
+        "value": 0.0,
+        "icon_url": "https://enka.network/ui/ef/attributeicon/ComboSkillCooldownScalar.png",
+        "stat_id": "47",
+        "name": "Arts Intensity",
+        "main_attri": false,
+        "sub_attri": false
+      }
+    ]
+  }
+}
