@@ -32,13 +32,13 @@ pip install endfield-py
 ### From GitHub
 
 ```bash
-pip install git+https://github.com/MR-LORD-REX/endfield.git
+pip install git+https://github.com/MR-LORD-REX/endfield-py.git
 ```
 
 ### Manual Installation
 
 ```bash
-git clone https://github.com/MR-LORD-REX/endfield.git
+git clone https://github.com/MR-LORD-REX/endfield-py.git
 cd endfield
 pip install -e .
 ```
@@ -78,7 +78,7 @@ async with Endfield(debug=True) as client:
 
 Comprehensive documentation for all classes, methods, and data models is hosted on GitHub Pages:
 
-👉 **[Endfield SDK Documentation](https://MR-LORD-REX.github.io/endfield/)**
+👉 **[Endfield SDK Documentation](https://MR-LORD-REX.github.io/endfield-py/)**
 
 #### How to get the token?
 
@@ -87,12 +87,12 @@ Comprehensive documentation for all classes, methods, and data models is hosted 
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit pull requests or open issues on the [GitHub repository](https://github.com/MR-LORD-REX/endfield).
+Contributions are welcome! Please feel free to submit pull requests or open issues on the [GitHub repository](https://github.com/MR-LORD-REX/endfield-py).
 
 ### Development Setup
 
 ```bash
-git clone https://github.com/MR-LORD-REX/endfield.git
+git clone https://github.com/MR-LORD-REX/endfield-py.git
 cd endfield
 pip install -e .
 ```
@@ -107,7 +107,7 @@ This is an unofficial library. Endfield is a trademark of their respective owner
 
 ## Support
 
-For issues, questions, or suggestions, please open an issue on the [GitHub repository](https://github.com/MR-LORD-REX/endfield/issues).
+For issues, questions, or suggestions, please open an issue on the [GitHub repository](https://github.com/MR-LORD-REX/endfield-py/issues).
 
 ## Credits
 

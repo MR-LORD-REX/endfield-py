@@ -14,4 +14,7 @@ call.md
 assets_usage.md
 calculator.md
 proxies.json
+analysis/
+.asset-sync*/
+
 test/

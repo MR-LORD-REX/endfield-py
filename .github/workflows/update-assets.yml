@@ -1,0 +1,180 @@
+name: Sync Endfield assets
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_commit:
+        description: "Optional upstream 40-character SHA; defaults to current master"
+        required: false
+        type: string
+  schedule:
+    - cron: "30 3 * * *"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: endfield-asset-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run asset sync tests
+        run: python -m unittest discover -s tests -p "test_*.py" -v
+
+      - name: Check upstream assets
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SOURCE_COMMIT: ${{ inputs.source_commit }}
+        run: |
+          if [ -n "$SOURCE_COMMIT" ]; then
+            python -m tools.asset_sync check --commit "$SOURCE_COMMIT" --out .asset-sync --github-summary
+          else
+            python -m tools.asset_sync check --out .asset-sync --github-summary
+          fi
+
+      - name: Detect changes
+        id: changes
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          report = json.loads(Path(".asset-sync/report.json").read_text(encoding="utf-8"))
+          changed = "true" if report["summary"]["changed"] else "false"
+          revision = str(report["revision"]["assetRevision"])
+          commit = report["source"]["commit"]
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as handle:
+              handle.write(f"changed={changed}\n")
+              handle.write(f"commit={commit}\n")
+              handle.write(f"revision={revision}\n")
+          print(f"changed={changed} commit={commit} revision={revision}")
+          PY
+
+      - name: Check revision metadata
+        id: revision
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          report = json.loads(Path(".asset-sync/report.json").read_text(encoding="utf-8"))
+          local = json.loads(Path("src/endfield/assets/version.json").read_text(encoding="utf-8"))
+          changed = str(local.get("assetRevision") != report["revision"]["assetRevision"]).lower()
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as handle:
+              handle.write(f"changed={changed}\n")
+          print(f"revision_changed={changed}")
+          PY
+
+      - name: Apply validated candidate
+        if: steps.changes.outputs.changed == 'true' || steps.revision.outputs.changed == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python -m tools.asset_sync apply --yes --commit "${{ steps.changes.outputs.commit }}" --out .asset-sync
+
+      - name: Check idempotence
+        if: steps.changes.outputs.changed == 'true' || steps.revision.outputs.changed == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python -m tools.asset_sync check --commit "${{ steps.changes.outputs.commit }}" --out .asset-sync-idempotent
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          report = json.loads(Path(".asset-sync-idempotent/report.json").read_text(encoding="utf-8"))
+          if report["summary"]["changed"]:
+              raise SystemExit("asset sync was not idempotent")
+          PY
+
+      - name: Upload sync report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: asset-sync-report
+          path: |
+            .asset-sync/report.json
+            .asset-sync/report.md
+          if-no-files-found: ignore
+
+      - name: Prepare review branch
+        if: steps.changes.outputs.changed == 'true' || steps.revision.outputs.changed == 'true'
+        id: branch
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SOURCE_REPOSITORY: MR-LORD-REX/endfield-py
+        run: |
+          base_ref="${{ github.ref_name }}"
+          : > "$GITHUB_OUTPUT"
+          echo "changed=false" >> "$GITHUB_OUTPUT"
+          echo "create_pr=false" >> "$GITHUB_OUTPUT"
+          if [ "$GITHUB_REPOSITORY" != "$SOURCE_REPOSITORY" ]; then
+            echo "Not running in the source repository; assets were validated but no branch will be pushed."
+            exit 0
+          fi
+          existing=$(gh pr list --state open --base "$base_ref" --label asset-sync --json headRefName --jq '.[0].headRefName // empty')
+          if [ -n "$existing" ]; then
+            branch="$existing"
+            create_pr="false"
+          else
+            stamp=$(TZ=Asia/Kolkata date +%Y%m%d-%H%M%S)
+            branch="aseet-update-${stamp}-ist"
+            create_pr="true"
+          fi
+          {
+            echo "name=$branch"
+            echo "base=$base_ref"
+            echo "create_pr=$create_pr"
+          } >> "$GITHUB_OUTPUT"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$branch"
+          git add \
+            src/endfield/assets/character/character.json \
+            src/endfield/assets/character/character_full.json \
+            src/endfield/assets/common/nameMap.json \
+            src/endfield/assets/profile/avatar_icon.json \
+            src/endfield/assets/profile/business_card_bg.json \
+            src/endfield/assets/profile/medals.json \
+            src/endfield/assets/relic/effects_map.json \
+            src/endfield/assets/relic/relic_item.json \
+            src/endfield/assets/relic/relic_suit.json \
+            src/endfield/assets/version.json \
+            src/endfield/assets/weapon/weapon.json \
+            src/endfield/assets/weapon/weapon_breakthrough_template.json \
+            src/endfield/assets/weapon/weapon_gem_term.json \
+            src/endfield/assets/weapon/weapon_gem_template.json \
+            src/endfield/assets/weapon/weapon_skill.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          git commit -m "update : Enka assets ${{ steps.changes.outputs.commit }}"
+          git push --force origin "$branch"
+
+      - name: Create review PR
+        if: steps.branch.outputs.changed == 'true' && steps.branch.outputs.create_pr == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr create \
+            --base "${{ steps.branch.outputs.base }}" \
+            --head "${{ steps.branch.outputs.name }}" \
+            --title "Asset update from Enka API-docs" \
+            --body-file .asset-sync/report.md

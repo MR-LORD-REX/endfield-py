@@ -3,7 +3,7 @@ from pathlib import Path
 import os
 import json
 
-BASE_URL = "https://raw.githubusercontent.com/MR-LORD-REX/endfield/main/src/endfield/assets/"
+BASE_URL = "https://raw.githubusercontent.com/MR-LORD-REX/endfield-py/main/src/endfield/assets/"
 assets_path = Path(__file__).parent / "assets"
 
 async def check_update():
@@ -14,11 +14,21 @@ async def check_update():
                 data = json.loads(data)
                 with open(assets_path / "version.json", "r") as f:
                     local_data = json.load(f)
-                if data["version"] != local_data["version"]:
-                    print(f"New version available: {data['version']}. You are using version: {local_data['version']}")
+                remote_revision = data.get("assetRevision")
+                local_revision = local_data.get("assetRevision")
+                if remote_revision is not None:
+                    # Older clients have no assetRevision yet; refresh them once
+                    # so they pick up the content revision, then compare it.
+                    differs = local_revision is None or remote_revision != local_revision
+                    label = remote_revision
+                else:
+                    differs = data["version"] != local_data["version"]
+                    label = data["version"]
+                if differs:
+                    print(f"New version available: {label}. You are using version: {local_data.get('assetRevision', local_data['version'])}")
                     return True
-                elif data["version"] == local_data["version"]:
-                    print(f"You are using the latest version: {data['version']}")
+                else:
+                    print(f"You are using the latest version: {label}")
                     return False
             else:
                 print("Failed to check for updates. Status code: " + str(response.status))

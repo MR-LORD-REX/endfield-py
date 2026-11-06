@@ -58,5 +58,32 @@
     },
     "22": {
         "Icon": "/ui/ef/friendlistbg/business_card_topic_chr_0031_mifu.png"
+    },
+    "23": {
+        "Icon": "/ui/ef/friendlistbg/business_card_topic_chr_0033_camille.png"
+    },
+    "24": {
+        "Icon": "/ui/ef/friendlistbg/business_card_topic_bp_1_4.png"
+    },
+    "25": {
+        "Icon": "/ui/ef/friendlistbg/business_card_topic_chr_0032_lizhiyan.png"
+    },
+    "26": {
+        "Icon": "/ui/ef/friendlistbg/business_card_topic_chr_0035_liino.png"
+    },
+    "28": {
+        "Icon": "/ui/ef/friendlistbg/business_card_topic_chr_0034_typhoea.png"
+    },
+    "29": {
+        "Icon": "/ui/ef/friendlistbg/business_card_topic_bp_1_5.png"
+    },
+    "30": {
+        "Icon": "/ui/ef/friendlistbg/business_card_topic_chr_0036_jsspsi.png"
+    },
+    "31": {
+        "Icon": "/ui/ef/friendlistbg/business_card_topic_chr_0037_minghe.png"
+    },
+    "34": {
+        "Icon": "/ui/ef/friendlistbg/business_card_topic_bp_1_6.png"
     }
 }

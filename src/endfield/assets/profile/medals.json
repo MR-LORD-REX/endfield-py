@@ -1075,5 +1075,662 @@
                 "ConditionDesc": "Manually start and complete 20 simulations"
             }
         }
+    },
+    "165": {
+        "Name": "\"Guidance From Amma\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_adv_wuling_arrow_lv02",
+                "ConditionDesc": "Use Typhoeus's arrows and shatter all runes in the Snowy Forest"
+            }
+        }
+    },
+    "161": {
+        "Name": "Aero-Salvager",
+        "LevelInfos": {
+            "1": {
+                "Icon": "medalicon/achv_adv_wuling_balloon_lv01",
+                "ConditionDesc": "In Yinglung Pass and North Wuling Exclusion Zone, complete aero-salvaging 26 times."
+            }
+        }
+    },
+    "158": {
+        "Name": "Rift Neutralizer",
+        "LevelInfos": {
+            "3": {
+                "Icon": "medalicon/achv_adv_wuling_blackhole_clean_lv03",
+                "ConditionDesc": "In North Wuling Exclusion Zone, completely neutralize 5 rifts"
+            }
+        }
+    },
+    "124": {
+        "Name": "Wuling Crate Master Ⅱ",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_adv_wuling_box_2_lv02",
+                "ConditionDesc": "In Qingbo Stockade, Marker Stone, Marker Stone Interiors, and Test Area, open 121 storage crates"
+            }
+        }
+    },
+    "113": {
+        "Name": "Wuling Crate Master Ⅲ",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_adv_wuling_box_3_lv02",
+                "ConditionDesc": "In Sword Vault Dale, Yinglung Pass, and North Wuling Exclusion Zone, open 151 crates"
+            }
+        }
+    },
+    "188": {
+        "Name": "Outworldly Crate Master",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_adv_wuling_box_4_lv02",
+                "ConditionDesc": "In Snowy Forest and Si's Painting, open 140 crates"
+            }
+        }
+    },
+    "167": {
+        "Name": "\"A Goal Truly Slugged\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_adv_wuling_bugball_lv02",
+                "ConditionDesc": "Kick 18 Originium Slugs into the Suiming Pit"
+            }
+        }
+    },
+    "106": {
+        "Name": "Anchored to Wuling Ⅱ",
+        "LevelInfos": {
+            "1": {
+                "Icon": "medalicon/achv_adv_wuling_campfire_2_lv01",
+                "ConditionDesc": "In Qingbo Stockade, Marker Stone, Marker Stone Interiors, and Test Area, unlock 19 TP Points"
+            }
+        }
+    },
+    "160": {
+        "Name": "Anchored to Wuling Ⅲ",
+        "LevelInfos": {
+            "1": {
+                "Icon": "medalicon/achv_adv_wuling_campfire_3_lv01",
+                "ConditionDesc": "In Sword Vault Dale, Yinglung Pass, and North Wuling Exclusion Zone, unlock 22 TP Points"
+            }
+        }
+    },
+    "189": {
+        "Name": "Anchored to Wuling Ⅳ",
+        "LevelInfos": {
+            "1": {
+                "Icon": "medalicon/achv_adv_wuling_campfire_4_lv01",
+                "ConditionDesc": "In Snowy Forest and Si's Painting, unlock 18 TP Points"
+            }
+        }
+    },
+    "116": {
+        "Name": "\"Re-Congregated Fragments\" Ⅱ",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_adv_wuling_ether_2_lv02",
+                "ConditionDesc": "In Qingbo Stockade, Marker Stone, Marker Stone Interiors, and Test Area, gather 59 Aurylenes"
+            }
+        }
+    },
+    "156": {
+        "Name": "Re-Congregated Fragments Ⅲ",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_adv_wuling_ether_3_lv02",
+                "ConditionDesc": "In Sword Vault Dale, Yinglung Pass, and North Wuling Exclusion Zone, gather 59 Aurylenes"
+            }
+        }
+    },
+    "191": {
+        "Name": "\"Re-Congregated Fragments\" Ⅳ",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_adv_wuling_ether_4_lv02",
+                "ConditionDesc": "In Snowy Forest and Si's Painting, gather 41 Aurylenes"
+            }
+        }
+    },
+    "159": {
+        "Name": "Kaleidographer",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_adv_wuling_find_difference_lv02",
+                "ConditionDesc": "In Yinglung Pass and North Wuling Exclusion Zone, solve 8 Kaleidograph puzzles"
+            }
+        }
+    },
+    "107": {
+        "Name": "\"Fowlbeast Water Prancer Ⅱ\"",
+        "LevelInfos": {
+            "1": {
+                "Icon": "medalicon/achv_adv_wuling_floor_2_lv01",
+                "ConditionDesc": "In Qingbo Stockade, Marker Stone, Marker Stone Interiors, and Test Area, activate 6 sets of pressure plates"
+            }
+        }
+    },
+    "111": {
+        "Name": "\"Swat the Lanky and Pass the Bug Ⅱ\"",
+        "LevelInfos": {
+            "1": {
+                "Icon": "medalicon/achv_adv_wuling_frog_2_lv01",
+                "ConditionDesc": "In Qingbo Stockade, Marker Stone, Marker Stone Interiors, and Test Area, complete 3 glowbug passing puzzles"
+            }
+        }
+    },
+    "138": {
+        "Name": "Superactive Blight Eliminator",
+        "LevelInfos": {
+            "1": {
+                "Icon": "medalicon/achv_adv_wuling_hyper_clean_lv01",
+                "ConditionDesc": "Eliminate every Superactive Blight mass in Sword Vault Dale"
+            }
+        }
+    },
+    "166": {
+        "Name": "Suiming Crate Master",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_adv_wuling_minimap_1_lv02",
+                "ConditionDesc": "In Suiming, open 28 crates"
+            }
+        }
+    },
+    "190": {
+        "Name": "\"Painting Mender\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_adv_wuling_paint_lv02",
+                "ConditionDesc": "In Si's Painting, restore 16 Old Works of Si"
+            }
+        }
+    },
+    "193": {
+        "Name": "\"Brilliant Dabs and Strokes\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_adv_wuling_password_lv02",
+                "ConditionDesc": "In Si's Painting, solve 11 Stone Lantern puzzles"
+            }
+        }
+    },
+    "176": {
+        "Name": "\"Gloomwald's Silence\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_bat_defeat_bigtree_lv02",
+                "ConditionDesc": "Defeat Gloomwald's Rage"
+            }
+        }
+    },
+    "133": {
+        "Name": "\"Gale Weaver\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_bat_defeat_dodge_jzogre_lv02",
+                "ConditionDesc": "The controlled operator suffers zero DMG and performs at least 5 perfect dodges against the spinning attack of the Armored Manglerbeast"
+            }
+        }
+    },
+    "141": {
+        "Name": "\"A Torch Extinguished\"",
+        "LevelInfos": {
+            "3": {
+                "Icon": "medalicon/achv_bat_defeat_fdcentur_lv03",
+                "ConditionDesc": "Complete \"Crisis Calamity: Alleikhreos, Chiliarch\""
+            }
+        }
+    },
+    "192": {
+        "Name": "\"Insight of Rejuvenation\"",
+        "LevelInfos": {
+            "3": {
+                "Icon": "medalicon/achv_bat_defeat_jsspsi_lv03",
+                "ConditionDesc": "Complete \"Crisis Calamity: Si\""
+            }
+        }
+    },
+    "137": {
+        "Name": "\"Mega-Beast Subdued\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_bat_defeat_jzmking_lv02",
+                "ConditionDesc": "Defeat the Craghowler"
+            }
+        }
+    },
+    "147": {
+        "Name": "\"Blitzcrash's Silent Passing\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_bat_defeat_klbear_lv02",
+                "ConditionDesc": "Defeat the Blitzcrash Blightshade"
+            }
+        }
+    },
+    "136": {
+        "Name": "\"Contention of Deathly Silences\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_bat_hard_5_lv02",
+                "ConditionDesc": "In [Umbral Monument], complete all \"Contention of Deathly Silences\" stages on Normal mode"
+            }
+        }
+    },
+    "145": {
+        "Name": "\"Howlers of the Crag\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_bat_hard_6_lv02",
+                "ConditionDesc": "In [Umbral Monument], complete all \"Howlers of the Crag\" stages in Normal Mode"
+            }
+        }
+    },
+    "162": {
+        "Name": "\"Marked by Dark Shadows\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_bat_hard_7_lv02",
+                "ConditionDesc": "In [Umbral Monument], complete all \"Marked by Dark Shadows\" stages on Normal mode"
+            }
+        }
+    },
+    "170": {
+        "Name": "\"Murmurs of the Deep Forest\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_bat_hard_8_lv02",
+                "ConditionDesc": "In [Umbral Monument], complete all \"Murmurs of the Deep Forest\" stages on Normal mode"
+            }
+        }
+    },
+    "197": {
+        "Name": "\"Art of Blanks\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_bat_jsspsi_reverse_color_lv02",
+                "ConditionDesc": "Let Si unleash her Painting ATK during the black-and-white state of Inkwashed Realm, and do not let the controlled operator take any DMG from the Painting ATK."
+            }
+        }
+    },
+    "175": {
+        "Name": "\"Completely Uprooted\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_bat_smalltree_lv02",
+                "ConditionDesc": "Force burrowing Woodcraft Wanderers to resurface"
+            }
+        }
+    },
+    "125": {
+        "Name": "\"Re-Ignition\"",
+        "LevelInfos": {
+            "3": {
+                "Icon": "medalicon/achv_event_contingency_contract_0_lv03",
+                "ConditionDesc": "In [Contingency Contract: Re-Ignition Experimental Operation], successfully complete a challenge with at least 20 <image=\"Common/icon_contingency_contract_entry_black\" width=30 height=30> Test Criteria"
+            }
+        }
+    },
+    "179": {
+        "Name": "\"Indigo Cleansed\"",
+        "LevelInfos": {
+            "3": {
+                "Icon": "medalicon/achv_event_contingency_contract_1_lv03",
+                "ConditionDesc": "In [Contingency Contract: Indigo Experimental Operation], successfully complete a challenge with ≥ 20 <image=\"Common/icon_contingency_contract_entry_black\" width=30 height=30> Total Test Criteria"
+            }
+        }
+    },
+    "174": {
+        "Name": "\"Chubby Lung Explosion\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_event_formula2_lv02",
+                "ConditionDesc": "During [AIC Support: Chubby Lung Attacks], earn 800,000 Fruits of Altruism Certs"
+            }
+        }
+    },
+    "164": {
+        "Name": "\"Dataplate Counter\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_event_gambling_dungeon_1_lv02",
+                "ConditionDesc": "From a single Trial, earn a high score of ≥ 500K"
+            }
+        }
+    },
+    "169": {
+        "Name": "\"Explorer of the Realm\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_event_racingdungeon_1_lv02",
+                "ConditionDesc": "In [The Rooted Realm] Phase 2, complete the chamber [Shower of Coins] 1 time"
+            }
+        }
+    },
+    "139": {
+        "Name": "\"Nocturnal Tactics\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_event_takestwo_1_lv02",
+                "ConditionDesc": "Complete all [HEAT RAGE! MEGA ARENA!] stages on Normal Mode"
+            }
+        }
+    },
+    "149": {
+        "Name": "\"Artful Realm of Six Cardinals\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_event_wuling_challenge_dung_02_lv02",
+                "ConditionDesc": "In [Delver of the Cryptic], complete all \"Artful Realm of Six Cardinals\" Protocol Spaces"
+            }
+        }
+    },
+    "183": {
+        "Name": "\"Fade Beyond the Painting\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_event_wuling_challenge_dung_03_lv02",
+                "ConditionDesc": "In [Delver of the Cryptic], complete all \"Fade Beyond the Painting\" Protocol Spaces"
+            }
+        }
+    },
+    "178": {
+        "Name": "\"Supreme Runner\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_event_wuling_racing_1_lv02",
+                "ConditionDesc": "In [Runners' Steeplechase], complete all races"
+            }
+        }
+    },
+    "153": {
+        "Name": "Factory Simulation Ⅱ",
+        "LevelInfos": {
+            "3": {
+                "Icon": "medalicon/achv_fac_blackbox_2_lv03",
+                "ConditionDesc": "Manually start and complete 30 simulations"
+            }
+        }
+    },
+    "131": {
+        "Name": "Wuling Stock Redistributor Ⅳ",
+        "LevelInfos": {
+            "3": {
+                "Icon": "medalicon/achv_fac_coupon_wuling_4_lv03",
+                "ConditionDesc": "Earn 80,000,000 Wuling Stock Bills"
+            }
+        }
+    },
+    "152": {
+        "Name": "Wuling Stock Redistributor Ⅴ",
+        "LevelInfos": {
+            "3": {
+                "Icon": "medalicon/achv_fac_coupon_wuling_5_lv03",
+                "ConditionDesc": "Earn 100,000,000 Wuling Stock Bills"
+            }
+        }
+    },
+    "187": {
+        "Name": "Happy Gourmand",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_fac_inn_management_lv02",
+                "ConditionDesc": "Achieve 5 Session Stars in 5 different themes (excludes Trial Runs)"
+            }
+        }
+    },
+    "151": {
+        "Name": "Wuling Outpost Builder Ⅱ",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_fac_settlement_wuling_2_lv02",
+                "ConditionDesc": "Add all Wuling outposts into the support program"
+            }
+        }
+    },
+    "134": {
+        "Name": "\"Zenith of the Trials\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_fac_simulation_training_lv02",
+                "ConditionDesc": "Complete 1 Trial with a total of 10 Battle Points"
+            }
+        }
+    },
+    "154": {
+        "Name": "Wuling Factory Pioneer Ⅳ",
+        "LevelInfos": {
+            "1": {
+                "Icon": "medalicon/achv_fac_techtree_jinlong_4_lv01",
+                "ConditionDesc": "Research 47 technologies in the Wuling AIC Plan"
+            }
+        }
+    },
+    "171": {
+        "Name": "\"Archer's Epiphany\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_fac_typhoea_archery_lv02",
+                "ConditionDesc": "In [Typhoeus's Archery Range], complete all basic training stages, and complete \"Daily Exercise 04\" once"
+            }
+        }
+    },
+    "194": {
+        "Name": "\"Involuntary Karma Recipient\"",
+        "LevelInfos": {
+            "1": {
+                "Icon": "medalicon/achv_hide_accidental_injury_lv01",
+                "ConditionDesc": "When fighting Simmer's Purge, Thunder Cloud can unleash Thunderbolts that inflict Stun."
+            }
+        }
+    },
+    "155": {
+        "Name": "\"Blade Hanging by a Thread\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_hide_aether_lock_clean_lv02",
+                "ConditionDesc": "In North Wuling Exclusion Zone, clear 5 energy alluvium build-ups"
+            }
+        }
+    },
+    "130": {
+        "Name": "\"Arms Race?\"",
+        "LevelInfos": {
+            "1": {
+                "Icon": "medalicon/achv_hide_banana_lv01",
+                "ConditionDesc": "Let the controlled operator slip on banana peels 1 time"
+            }
+        }
+    },
+    "168": {
+        "Name": "\"Giant Ice Hammer\"",
+        "LevelInfos": {
+            "1": {
+                "Icon": "medalicon/achv_hide_cave_v1d5_lv01",
+                "ConditionDesc": "Reach the underground cave of Little Grotto, Snowy Forest"
+            }
+        }
+    },
+    "150": {
+        "Name": "\"Maker's Domination\"",
+        "LevelInfos": {
+            "3": {
+                "Icon": "medalicon/achv_hide_no_parry_lv03",
+                "ConditionDesc": "Complete \"Crisis Calamity: Alleikhreos, Chiliarch\" without using Foundite Weapons"
+            }
+        }
+    },
+    "135": {
+        "Name": "\"Beastie's Tribute\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_hide_open_treasure_lv02",
+                "ConditionDesc": "Find Smartie's \"tribute\""
+            }
+        }
+    },
+    "195": {
+        "Name": "\"A View of the Southern Peak\"",
+        "LevelInfos": {
+            "1": {
+                "Icon": "medalicon/achv_hide_spaceship_v1d6_lv01",
+                "ConditionDesc": "Reach the Vantage Islet"
+            }
+        }
+    },
+    "196": {
+        "Name": "\"Most Dashing Lung\"",
+        "LevelInfos": {
+            "1": {
+                "Icon": "medalicon/achv_hide_three_dragon_lv01",
+                "ConditionDesc": "Find all the minimalist Lung-shaped Ink Spirits"
+            }
+        }
+    },
+    "129": {
+        "Name": "\"Danse Macabre\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_quest_camille_lv02",
+                "ConditionDesc": "Complete side mission [Danse Macabre]"
+            }
+        }
+    },
+    "157": {
+        "Name": "\"A Seal Lifted\"",
+        "LevelInfos": {
+            "3": {
+                "Icon": "medalicon/achv_quest_e11m1_lv03",
+                "ConditionDesc": "Complete main mission [Chapter Ⅱ Process Ⅶ: Bravely Breach the Hostile Winds]"
+            }
+        }
+    },
+    "144": {
+        "Name": "\"A Dialog of Swords\"",
+        "LevelInfos": {
+            "3": {
+                "Icon": "medalicon/achv_quest_e11m3_lv03",
+                "ConditionDesc": "Bid farewell to an instructor of Tanjian Hall"
+            }
+        }
+    },
+    "140": {
+        "Name": "\"Connection to the Past\"",
+        "LevelInfos": {
+            "3": {
+                "Icon": "medalicon/achv_quest_e11m4_lv03",
+                "ConditionDesc": "Span the chasm with a Xiranite bridge"
+            }
+        }
+    },
+    "142": {
+        "Name": "\"Child of Hope\"",
+        "LevelInfos": {
+            "3": {
+                "Icon": "medalicon/achv_quest_e11m5_lv03",
+                "ConditionDesc": "Complete main mission [Chapter Ⅱ Process Ⅶ: Warily Returns the Wandering Vigile]"
+            }
+        }
+    },
+    "146": {
+        "Name": "\"Thus Ends the Weeping Gash\"",
+        "LevelInfos": {
+            "3": {
+                "Icon": "medalicon/achv_quest_e11m7_lv03",
+                "ConditionDesc": "Complete main mission [Chapter Ⅱ Process Ⅶ: Homecoming]"
+            }
+        }
+    },
+    "181": {
+        "Name": "\"Enter the Painted World\"",
+        "LevelInfos": {
+            "3": {
+                "Icon": "medalicon/achv_quest_e12m1_lv03",
+                "ConditionDesc": "Complete main mission [Chapter Ⅱ Process Ⅷ: Inn the Painting]"
+            }
+        }
+    },
+    "184": {
+        "Name": "\"See Through the Self\"",
+        "LevelInfos": {
+            "3": {
+                "Icon": "medalicon/achv_quest_e12m4_lv03",
+                "ConditionDesc": "Complete main mission [Chapter Ⅱ Process Ⅷ: Trial Ⅲ - A Path Where There's None]"
+            }
+        }
+    },
+    "185": {
+        "Name": "\"Paint with Fresh Ink\"",
+        "LevelInfos": {
+            "3": {
+                "Icon": "medalicon/achv_quest_e12m5_lv03",
+                "ConditionDesc": "Complete main mission [Chapter Ⅱ Process Ⅷ: The Conclusion]"
+            }
+        }
+    },
+    "173": {
+        "Name": "\"Fate Beneath the Snow\"",
+        "LevelInfos": {
+            "1": {
+                "Icon": "medalicon/achv_quest_gm02m22_lv01",
+                "ConditionDesc": "Complete side missions [Illumination of Fate] and [Endeavor of a Lifetime]"
+            }
+        }
+    },
+    "177": {
+        "Name": "\"Let Suiming Light the Way\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_quest_gm02m27_lv02",
+                "ConditionDesc": "Complete side mission [Bell of Recollection]"
+            }
+        }
+    },
+    "143": {
+        "Name": "\"Like a Star Streaking Through the Boundaries\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_quest_liino_lv02",
+                "ConditionDesc": "Complete side mission [Like a Star Streaking Through the Boundaries]"
+            }
+        }
+    },
+    "132": {
+        "Name": "\"A Fistful of Reflections\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_quest_mifu_lv02",
+                "ConditionDesc": "Complete side mission [A Fistful of Reflections]"
+            }
+        }
+    },
+    "182": {
+        "Name": "\"Back to the Rustics\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_quest_minghe_lv02",
+                "ConditionDesc": "Complete side mission [Back to the Rustics]"
+            }
+        }
+    },
+    "186": {
+        "Name": "\"A Day to Remember\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_quest_sm2l10m3_lv02",
+                "ConditionDesc": "Complete side mission [A Day to Remember]"
+            }
+        }
+    },
+    "172": {
+        "Name": "\"A Winter Dream Fogged Deep in the Woods\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_quest_typhoea_lv02",
+                "ConditionDesc": "Complete side mission [A Winter Dream Fogged Deep in the Woods]"
+            }
+        }
     }
 }
