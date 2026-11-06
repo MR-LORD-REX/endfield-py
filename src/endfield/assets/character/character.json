@@ -993,16 +993,8 @@
             {
                 "Level": 4,
                 "Attrs": {
-                    "1": {
-                        "Value": 0.1,
-                        "Formula": "BaseMultiplier"
-                    },
-                    "40": {
-                        "Value": 25,
-                        "Formula": "BaseAddition"
-                    },
-                    "60": {
-                        "Value": -0.1,
+                    "87": {
+                        "Value": 16.0,
                         "Formula": "BaseAddition"
                     }
                 }
@@ -1522,16 +1514,8 @@
             {
                 "Level": 4,
                 "Attrs": {
-                    "1": {
-                        "Value": 0.1,
-                        "Formula": "BaseMultiplier"
-                    },
-                    "40": {
-                        "Value": 25,
-                        "Formula": "BaseAddition"
-                    },
-                    "60": {
-                        "Value": -0.1,
+                    "87": {
+                        "Value": 16.0,
                         "Formula": "BaseAddition"
                     }
                 }
@@ -2138,16 +2122,8 @@
             {
                 "Level": 4,
                 "Attrs": {
-                    "1": {
-                        "Value": 0.1,
-                        "Formula": "BaseMultiplier"
-                    },
-                    "40": {
-                        "Value": 25,
-                        "Formula": "BaseAddition"
-                    },
-                    "60": {
-                        "Value": -0.1,
+                    "87": {
+                        "Value": 16.0,
                         "Formula": "BaseAddition"
                     }
                 }
@@ -3319,6 +3295,426 @@
                     },
                     "42": {
                         "Value": 20,
+                        "Formula": "BaseAddition"
+                    }
+                }
+            }
+        ]
+    },
+    "51": {
+        "StrId": "chr_0034_typhoea",
+        "NameHash": "-7807076813570257721",
+        "Rarity": 6,
+        "Element": "Natural",
+        "Profession": "ASSAULT",
+        "WeaponType": "Wand",
+        "MainAttrId": 40,
+        "SubAttrId": 42,
+        "AttributeNodes": {
+            "chr_0034_typhoea_1": {
+                "40": 10.0
+            },
+            "chr_0034_typhoea_3": {
+                "40": 15.0
+            },
+            "chr_0034_typhoea_5": {
+                "40": 15.0
+            },
+            "chr_0034_typhoea_7": {
+                "40": 20.0
+            }
+        },
+        "SkillInfoMap": {
+            "chr_0034_typhoea_ComboSkill": {
+                "Icon": "/ui/ef/skillicon/icon_combo_skill_typhoea_01.png",
+                "Element": "Natural"
+            },
+            "chr_0034_typhoea_NormalAttack": {
+                "Icon": "/ui/ef/skillicon/icon_attack_funnel.png",
+                "Element": "Natural"
+            },
+            "chr_0034_typhoea_NormalSkill": {
+                "Icon": "/ui/ef/skillicon/icon_skill_typhoea_01.png",
+                "Element": "Natural"
+            },
+            "chr_0034_typhoea_UltimateSkill": {
+                "Icon": "/ui/ef/skillicon/icon_ultimate_skill_typhoea_01.png",
+                "Element": "Natural"
+            }
+        },
+        "NodeSkillMap": {
+            "chr_0034_typhoea_passive_skill_0_1": {
+                "Icon": "/ui/ef/icon_talent_typhoea_01.png",
+                "Level": 1,
+                "Index": 0,
+                "Type": 4
+            },
+            "chr_0034_typhoea_passive_skill_0_2": {
+                "Icon": "/ui/ef/icon_talent_typhoea_01.png",
+                "Level": 2,
+                "Index": 0,
+                "Type": 4
+            },
+            "chr_0034_typhoea_passive_skill_0_3": {
+                "Icon": "/ui/ef/icon_talent_typhoea_01.png",
+                "Level": 3,
+                "Index": 0,
+                "Type": 4
+            },
+            "chr_0034_typhoea_passive_skill_1_1": {
+                "Icon": "/ui/ef/icon_talent_typhoea_02.png",
+                "Level": 1,
+                "Index": 1,
+                "Type": 4
+            },
+            "chr_0034_typhoea_passive_skill_1_2": {
+                "Icon": "/ui/ef/icon_talent_typhoea_02.png",
+                "Level": 2,
+                "Index": 1,
+                "Type": 4
+            },
+            "fac_chr_0034_typhoea_0_1": {
+                "Icon": "/ui/ef/spaceshipskillicon/facskill_spaceship_plant_mineral.png",
+                "Level": 1,
+                "Index": 2,
+                "Type": 5
+            },
+            "fac_chr_0034_typhoea_0_2": {
+                "Icon": "/ui/ef/spaceshipskillicon/facskill_spaceship_plant_mineral.png",
+                "Level": 2,
+                "Index": 2,
+                "Type": 5
+            },
+            "fac_chr_0034_typhoea_1_1": {
+                "Icon": "/ui/ef/spaceshipskillicon/facskill_spaceship_plant_fungus.png",
+                "Level": 1,
+                "Index": 3,
+                "Type": 5
+            },
+            "fac_chr_0034_typhoea_1_2": {
+                "Icon": "/ui/ef/spaceshipskillicon/facskill_spaceship_plant_fungus.png",
+                "Level": 2,
+                "Index": 3,
+                "Type": 5
+            }
+        },
+        "PotAttributes": [
+            {
+                "Level": 2,
+                "Attrs": {
+                    "40": {
+                        "Value": 20.0,
+                        "Formula": "BaseAddition"
+                    },
+                    "87": {
+                        "Value": 16.0,
+                        "Formula": "BaseAddition"
+                    }
+                }
+            }
+        ]
+    },
+    "52": {
+        "StrId": "chr_0038_purrche",
+        "NameHash": "3230859928664315327",
+        "Rarity": 5,
+        "Element": "Physical",
+        "Profession": "DEFENDER",
+        "WeaponType": "Sword",
+        "MainAttrId": 39,
+        "SubAttrId": 42,
+        "AttributeNodes": {
+            "chr_0038_purrche_1": {
+                "39": 10.0
+            },
+            "chr_0038_purrche_3": {
+                "39": 15.0
+            },
+            "chr_0038_purrche_5": {
+                "39": 15.0
+            },
+            "chr_0038_purrche_7": {
+                "39": 20.0
+            }
+        },
+        "SkillInfoMap": {
+            "chr_0038_purrche_ComboSkill": {
+                "Icon": "/ui/ef/skillicon/icon_combo_skill_purrche_01.png",
+                "Element": "Physical"
+            },
+            "chr_0038_purrche_NormalAttack": {
+                "Icon": "/ui/ef/skillicon/icon_attack_sword.png",
+                "Element": "Physical"
+            },
+            "chr_0038_purrche_NormalSkill": {
+                "Icon": "/ui/ef/skillicon/icon_skill_purrche_01.png",
+                "Element": "Natural"
+            },
+            "chr_0038_purrche_UltimateSkill": {
+                "Icon": "/ui/ef/skillicon/icon_ultimate_skill_purrche_01.png",
+                "Element": "Physical"
+            }
+        },
+        "NodeSkillMap": {
+            "chr_0038_purrche_passive_skill_0_1": {
+                "Icon": "/ui/ef/icon_talent_purrche_01.png",
+                "Level": 1,
+                "Index": 0,
+                "Type": 4
+            },
+            "chr_0038_purrche_passive_skill_0_2": {
+                "Icon": "/ui/ef/icon_talent_purrche_01.png",
+                "Level": 2,
+                "Index": 0,
+                "Type": 4
+            },
+            "chr_0038_purrche_passive_skill_1_1": {
+                "Icon": "/ui/ef/icon_talent_purrche_02.png",
+                "Level": 1,
+                "Index": 1,
+                "Type": 4
+            },
+            "chr_0038_purrche_passive_skill_1_2": {
+                "Icon": "/ui/ef/icon_talent_purrche_02.png",
+                "Level": 2,
+                "Index": 1,
+                "Type": 4
+            },
+            "fac_chr_0038_purrche_0_1": {
+                "Icon": "/ui/ef/spaceshipskillicon/facskill_spaceship_guestroom_clue.png",
+                "Level": 1,
+                "Index": 2,
+                "Type": 5
+            },
+            "fac_chr_0038_purrche_0_2": {
+                "Icon": "/ui/ef/spaceshipskillicon/facskill_spaceship_guestroom_clue.png",
+                "Level": 2,
+                "Index": 2,
+                "Type": 5
+            },
+            "fac_chr_0038_purrche_1_1": {
+                "Icon": "/ui/ef/spaceshipskillicon/facskill_spaceship_manufacture_efficiency.png",
+                "Level": 1,
+                "Index": 3,
+                "Type": 5
+            },
+            "fac_chr_0038_purrche_1_2": {
+                "Icon": "/ui/ef/spaceshipskillicon/facskill_spaceship_manufacture_efficiency.png",
+                "Level": 2,
+                "Index": 3,
+                "Type": 5
+            }
+        },
+        "PotAttributes": [
+            {
+                "Level": 2,
+                "Attrs": {
+                    "3": {
+                        "Value": 20.0,
+                        "Formula": "BaseAddition"
+                    },
+                    "42": {
+                        "Value": 20.0,
+                        "Formula": "BaseAddition"
+                    }
+                }
+            }
+        ]
+    },
+    "54": {
+        "StrId": "chr_0036_jsspsi",
+        "NameHash": "7549422073270614678",
+        "Rarity": 6,
+        "Element": "Cryst",
+        "Profession": "SUPPORTER",
+        "WeaponType": "Claymores",
+        "MainAttrId": 41,
+        "SubAttrId": 39,
+        "AttributeNodes": {
+            "chr_0036_jsspsi_1": {
+                "41": 10.0
+            },
+            "chr_0036_jsspsi_3": {
+                "41": 15.0
+            },
+            "chr_0036_jsspsi_5": {
+                "41": 15.0
+            },
+            "chr_0036_jsspsi_7": {
+                "41": 20.0
+            }
+        },
+        "SkillInfoMap": {
+            "chr_0036_jsspsi_ComboSkill": {
+                "Icon": "/ui/ef/skillicon/icon_combo_skill_jsspsi_01.png",
+                "Element": "Cryst"
+            },
+            "chr_0036_jsspsi_NormalAttack": {
+                "Icon": "/ui/ef/skillicon/icon_attack_claym.png",
+                "Element": "Cryst"
+            },
+            "chr_0036_jsspsi_NormalSkill": {
+                "Icon": "/ui/ef/skillicon/icon_skill_jsspsi_01.png",
+                "Element": "Cryst"
+            },
+            "chr_0036_jsspsi_UltimateSkill": {
+                "Icon": "/ui/ef/skillicon/icon_ultimate_skill_jsspsi_01.png",
+                "Element": "Cryst"
+            }
+        },
+        "NodeSkillMap": {
+            "chr_0036_jsspsi_passive_skill_0_1": {
+                "Icon": "/ui/ef/icon_talent_jsspsi_01.png",
+                "Level": 1,
+                "Index": 0,
+                "Type": 4
+            },
+            "chr_0036_jsspsi_passive_skill_0_2": {
+                "Icon": "/ui/ef/icon_talent_jsspsi_01.png",
+                "Level": 2,
+                "Index": 0,
+                "Type": 4
+            },
+            "chr_0036_jsspsi_passive_skill_1_1": {
+                "Icon": "/ui/ef/icon_talent_jsspsi_02.png",
+                "Level": 1,
+                "Index": 1,
+                "Type": 4
+            },
+            "chr_0036_jsspsi_passive_skill_1_2": {
+                "Icon": "/ui/ef/icon_talent_jsspsi_02.png",
+                "Level": 2,
+                "Index": 1,
+                "Type": 4
+            },
+            "fac_chr_0036_jsspsi_0_1": {
+                "Icon": "/ui/ef/spaceshipskillicon/facskill_spaceship_guestroom_efficiency.png",
+                "Level": 1,
+                "Index": 2,
+                "Type": 5
+            },
+            "fac_chr_0036_jsspsi_0_2": {
+                "Icon": "/ui/ef/spaceshipskillicon/facskill_spaceship_guestroom_efficiency.png",
+                "Level": 2,
+                "Index": 2,
+                "Type": 5
+            },
+            "fac_chr_0036_jsspsi_1_1": {
+                "Icon": "/ui/ef/spaceshipskillicon/facskill_spaceship_guestroom_power_consume.png",
+                "Level": 1,
+                "Index": 3,
+                "Type": 5
+            },
+            "fac_chr_0036_jsspsi_1_2": {
+                "Icon": "/ui/ef/spaceshipskillicon/facskill_spaceship_guestroom_power_consume.png",
+                "Level": 2,
+                "Index": 3,
+                "Type": 5
+            }
+        },
+        "PotAttributes": []
+    },
+    "56": {
+        "StrId": "chr_0037_minghe",
+        "NameHash": "129836484579546347",
+        "Rarity": 6,
+        "Element": "Pulse",
+        "Profession": "GUARD",
+        "WeaponType": "Sword",
+        "MainAttrId": 42,
+        "SubAttrId": 39,
+        "AttributeNodes": {
+            "chr_0037_minghe_1": {
+                "42": 10.0
+            },
+            "chr_0037_minghe_3": {
+                "42": 15.0
+            },
+            "chr_0037_minghe_5": {
+                "42": 15.0
+            },
+            "chr_0037_minghe_7": {
+                "42": 20.0
+            }
+        },
+        "SkillInfoMap": {
+            "chr_0037_minghe_ComboSkill": {
+                "Icon": "/ui/ef/skillicon/icon_combo_skill_minghe_01.png",
+                "Element": "Pulse"
+            },
+            "chr_0037_minghe_NormalAttack": {
+                "Icon": "/ui/ef/skillicon/icon_attack_sword.png",
+                "Element": "Physical"
+            },
+            "chr_0037_minghe_NormalSkill": {
+                "Icon": "/ui/ef/skillicon/icon_skill_minghe_01.png",
+                "Element": "Physical"
+            },
+            "chr_0037_minghe_UltimateSkill": {
+                "Icon": "/ui/ef/skillicon/icon_ultimate_skill_minghe_01.png",
+                "Element": "Pulse"
+            }
+        },
+        "NodeSkillMap": {
+            "chr_0037_minghe_passive_skill_0_1": {
+                "Icon": "/ui/ef/icon_talent_minghe_01.png",
+                "Level": 1,
+                "Index": 0,
+                "Type": 4
+            },
+            "chr_0037_minghe_passive_skill_0_2": {
+                "Icon": "/ui/ef/icon_talent_minghe_01.png",
+                "Level": 2,
+                "Index": 0,
+                "Type": 4
+            },
+            "chr_0037_minghe_passive_skill_1_1": {
+                "Icon": "/ui/ef/icon_talent_minghe_02.png",
+                "Level": 1,
+                "Index": 1,
+                "Type": 4
+            },
+            "chr_0037_minghe_passive_skill_1_2": {
+                "Icon": "/ui/ef/icon_talent_minghe_02.png",
+                "Level": 2,
+                "Index": 1,
+                "Type": 4
+            },
+            "fac_chr_0037_minghe_0_1": {
+                "Icon": "/ui/ef/spaceshipskillicon/facskill_spaceship_manufacture_efficiency.png",
+                "Level": 1,
+                "Index": 2,
+                "Type": 5
+            },
+            "fac_chr_0037_minghe_0_2": {
+                "Icon": "/ui/ef/spaceshipskillicon/facskill_spaceship_manufacture_efficiency.png",
+                "Level": 2,
+                "Index": 2,
+                "Type": 5
+            },
+            "fac_chr_0037_minghe_1_1": {
+                "Icon": "/ui/ef/spaceshipskillicon/facskill_spaceship_manufacture_power_consume.png",
+                "Level": 1,
+                "Index": 3,
+                "Type": 5
+            },
+            "fac_chr_0037_minghe_1_2": {
+                "Icon": "/ui/ef/spaceshipskillicon/facskill_spaceship_manufacture_power_consume.png",
+                "Level": 2,
+                "Index": 3,
+                "Type": 5
+            }
+        },
+        "PotAttributes": [
+            {
+                "Level": 2,
+                "Attrs": {
+                    "42": {
+                        "Value": 20.0,
+                        "Formula": "BaseAddition"
+                    },
+                    "87": {
+                        "Value": 16.0,
                         "Formula": "BaseAddition"
                     }
                 }
