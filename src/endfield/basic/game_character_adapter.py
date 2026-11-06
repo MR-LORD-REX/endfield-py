@@ -1,11 +1,15 @@
 from __future__ import annotations
 
+import logging
 import math
 from pathlib import PurePosixPath
 import re
 from typing import Any
 
 from ..resolver import AssetResolver
+
+
+logger = logging.getLogger(__name__)
 
 
 _SKILL_TYPES = (
@@ -202,6 +206,18 @@ class GameCharacterAdapter:
 
         if len(candidates) == 1:
             return candidates[0]
+
+        # TEMPORARY: upstream v1.6 has two identical Grand Vision records.
+        # Remove this once upstream de-duplicates them; other ambiguities
+        # must continue to fail loudly.
+        if game_name == "Grand Vision" and set(candidates) == {3273, 5358}:
+            logger.warning(
+                "Duplicate Enka weapon entries for %r (IDs %s); using 3273",
+                game_name,
+                sorted(candidates),
+            )
+            return 3273
+
         raise ValueError(f"Could not map game weapon {game_name!r} to an Enka ID")
 
     def _convert_gem(self, game_weapon: dict[str, Any]) -> dict[str, Any]:
