@@ -117,11 +117,9 @@ For issues, questions, or suggestions, please open an issue on the [GitHub repos
 
 ## Changelog
 
-### Version 1.2.0
+### Version 1.2.2
 
-- game V1.4 asset update
-- Added monument showcase support
-- Added support for fetching character directly from skport API using token 
+- game V1.6 asset update
 
 
 ---

@@ -6,7 +6,7 @@ on:
       - 'v*'
 
 jobs:
-  build-and-publish:
+  build:
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -53,8 +53,58 @@ jobs:
       - name: Build package
         run: python -m build
 
+      - name: Upload distributions
+        uses: actions/upload-artifact@v4
+        with:
+          name: python-package-distributions
+          path: dist/
+
+  publish-pypi:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Download distributions
+        uses: actions/download-artifact@v4
+        with:
+          name: python-package-distributions
+          path: dist/
+
       - name: Publish to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
           password: ${{ secrets.PYPI_TOKEN }}
           packages-dir: dist/
+
+  draft-release:
+    needs: publish-pypi
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Create draft GitHub release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          TAG_NAME: ${{ github.ref_name }}
+        run: |
+          release_state=$(gh release view "$TAG_NAME" --json isDraft,isPrerelease --jq 'if .isDraft then "draft" elif .isPrerelease then "prerelease" else "published" end' 2>/dev/null || echo "missing")
+          if [ "$release_state" = "published" ] || [ "$release_state" = "prerelease" ]; then
+            echo "Release $TAG_NAME is already published; leaving it unchanged."
+            exit 0
+          fi
+          if [ "$release_state" = "draft" ]; then
+            echo "Draft release $TAG_NAME already exists; leaving it unchanged."
+            exit 0
+          fi
+
+          version="${TAG_NAME#v}"
+          previous_tag=$(gh release list --exclude-drafts --exclude-pre-releases --limit 1 --json tagName --jq '.[0].tagName // empty')
+          if [ -n "$previous_tag" ]; then
+            gh release create "$TAG_NAME" --draft --verify-tag --title "v$version" --notes-start-tag "$previous_tag" --generate-notes
+          else
+            gh release create "$TAG_NAME" --draft --verify-tag --title "v$version" --generate-notes
+          fi
