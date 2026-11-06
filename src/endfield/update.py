@@ -3,7 +3,7 @@ from pathlib import Path
 import os
 import json
 
-BASE_URL = "https://raw.githubusercontent.com/MR-LORD-REX/endfield/main/src/endfield/assets/"
+BASE_URL = "https://raw.githubusercontent.com/MR-LORD-REX/endfield-py/main/src/endfield/assets/"
 assets_path = Path(__file__).parent / "assets"
 
 async def check_update():

@@ -117,7 +117,7 @@ jobs:
         id: branch
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SOURCE_REPOSITORY: MR-LORD-REX/endfield
+          SOURCE_REPOSITORY: MR-LORD-REX/endfield-py
         run: |
           base_ref="${{ github.ref_name }}"
           : > "$GITHUB_OUTPUT"
