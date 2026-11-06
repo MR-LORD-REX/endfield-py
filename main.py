@@ -13,7 +13,7 @@ p = []
 async def main():
     proxies = ProxyPool(proxies=p)
 
-    async with Endfield(debug=True, proxy_pool=proxies) as ef:
+    async with Endfield(debug=False, proxy_pool=proxies) as ef:
         data = await ef.get_showcase(uid)
         print(data.profile.name)
         for char in data.characters:
@@ -23,6 +23,8 @@ async def main():
             print("\n\n")
         with open("data.json", "w", encoding="utf-8") as f:
             f.write(data.model_dump_json(indent=2))
+        # msg=await ef.perform_daily_sign(token)
+        # print(msg)
 
     # async with Endfield(debug=True, proxy_pool=proxies) as ef:
     #     t1=time.time()
@@ -36,7 +38,7 @@ async def main():
     #     t3=time.time()
     #     print(f"Fetched detailed data for {len(data)} characters in {t3-t2:.2f} seconds.")
     #     for d in data:
-    #         with open(f"test/{d.name}.json", "w", encoding="utf-8") as f:
+    #         with open(f"tests/{d.name}.json", "w", encoding="utf-8") as f:
     #             f.write(d.model_dump_json(indent=2))
             
     #     monument_data = await ef.get_monument(token)
@@ -58,16 +60,16 @@ async def main():
     #         with open("stats.json", "w", encoding="utf-8") as f:
     #             f.write("{}")
 
-    async with Endfield() as ef:
-        blueprints = await ef.get_factory_blueprints(
-            region="Asia",
-            item="xiranite",
-            start=0,
-            end=10,
-        )
-        print(blueprints.model_dump_json(indent=2))
-        with open("blueprints.json", "w", encoding="utf-8") as f:
-            f.write(blueprints.model_dump_json(indent=2))
+    # async with Endfield() as ef:
+    #     blueprints = await ef.get_factory_blueprints(
+    #         region="Asia",
+    #         item="xiranite",
+    #         start=0,
+    #         end=10,
+    #     )
+    #     print(blueprints.model_dump_json(indent=2))
+    #     with open("blueprints.json", "w", encoding="utf-8") as f:
+    #         f.write(blueprints.model_dump_json(indent=2))
 
     await proxies.close()
 
