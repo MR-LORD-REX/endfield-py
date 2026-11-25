@@ -169,5 +169,11 @@
     },
     "62": {
         "Icon": "/ui/ef/playeravatar/icon_user_avatar_bp_1_6.png"
+    },
+    "58": {
+        "Icon": "/ui/ef/charremoteicon/icon_chr_0040_sweetpie.png"
+    },
+    "63": {
+        "Icon": "/ui/ef/playeravatar/icon_user_avatar_bp_1_7.png"
     }
 }

@@ -85,5 +85,14 @@
     },
     "34": {
         "Icon": "/ui/ef/friendlistbg/business_card_topic_bp_1_6.png"
+    },
+    "32": {
+        "Icon": "/ui/ef/friendlistbg/business_card_topic_chr_0040_sweetpie.png"
+    },
+    "35": {
+        "Icon": "/ui/ef/friendlistbg/business_card_topic_bp_1_7.png"
+    },
+    "39": {
+        "Icon": "/ui/ef/friendlistbg/business_card_topic_channel_1_7.png"
     }
 }

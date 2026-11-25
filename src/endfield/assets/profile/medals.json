@@ -1732,5 +1732,149 @@
                 "ConditionDesc": "Complete side mission [A Winter Dream Fogged Deep in the Woods]"
             }
         }
+    },
+    "211": {
+        "Name": "Shroom World Crate Master",
+        "LevelInfos": {
+            "1": {
+                "Icon": "medalicon/achv_adv_wuling_box_5_lv01",
+                "ConditionDesc": "In the Old Dam, open 47 crates"
+            }
+        }
+    },
+    "213": {
+        "Name": "Anchored to Wuling Ⅴ",
+        "LevelInfos": {
+            "1": {
+                "Icon": "medalicon/achv_adv_wuling_campfire_5_lv01",
+                "ConditionDesc": "In the Old Dam, unlock 7 TP Points"
+            }
+        }
+    },
+    "215": {
+        "Name": "\"Re-Congregated Fragments\" Ⅴ",
+        "LevelInfos": {
+            "1": {
+                "Icon": "medalicon/achv_adv_wuling_ether_5_lv01",
+                "ConditionDesc": "In the Old Dam, gather 17 Aurylenes"
+            }
+        }
+    },
+    "214": {
+        "Name": "Dam Treader",
+        "LevelInfos": {
+            "1": {
+                "Icon": "medalicon/achv_adv_wuling_sweetpie_lv01",
+                "ConditionDesc": "In the Old Dam, use Waffle Strike or operator attacks to interact with special shrooms (including: Power-Feeding Mushrooms, Rainbow Mushrooms, Mushroom Vines, and Delulu Walls) 20 times"
+            }
+        }
+    },
+    "198": {
+        "Name": "\"Despotic Brutality\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_bat_hard_9_lv02",
+                "ConditionDesc": "In [Umbral Monument], complete all \"Despot Weaponized\" Difficulty Ⅲ stages"
+            }
+        }
+    },
+    "207": {
+        "Name": "\"Fungal Bounciness\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_bat_mushro_blowoff_lv02",
+                "ConditionDesc": "Let the controlled operator get lifted ≥ 4 times from 1 round of the Shroomkrusher Sporeknuckles' continuous quake attack"
+            }
+        }
+    },
+    "216": {
+        "Name": "\"Witchcraft 21\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_event_blackjack_1_lv02",
+                "ConditionDesc": "Earn ≥ 21 points without busting"
+            }
+        }
+    },
+    "209": {
+        "Name": "\"Joker's Warlord Power\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_event_doudizhu_1_lv02",
+                "ConditionDesc": "Play 1 Black Joker card"
+            }
+        }
+    },
+    "199": {
+        "Name": "\"BEST! ARENA OF TALOS-II!\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_event_takestwo_2_lv02",
+                "ConditionDesc": "In [RISE! MEGA ARENA!], complete all stages on Normal mode"
+            }
+        }
+    },
+    "212": {
+        "Name": "\"Shroom City\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_event_wuling_challenge_dung_04_lv02",
+                "ConditionDesc": "In [Delver of the Cryptic], complete all \"Esoteric Mycology\" Protocol Spaces"
+            }
+        }
+    },
+    "202": {
+        "Name": "Wuling Factory Pioneer Ⅴ",
+        "LevelInfos": {
+            "1": {
+                "Icon": "medalicon/achv_fac_techtree_jinlong_5_lv01",
+                "ConditionDesc": "Research 50 technologies in the Wuling AIC Plan"
+            }
+        }
+    },
+    "201": {
+        "Name": "\"Our Lives Rebuilt\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_fac_wonder_build_lv02",
+                "ConditionDesc": "In Wuling, progress Exclusion Zone Rebuilding to Phase 4 (Routine Maintenance)"
+            }
+        }
+    },
+    "208": {
+        "Name": "\"Come, Slither Out of the Pipes\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_hide_mushbug_attract_lv02",
+                "ConditionDesc": "When the Shroomkrusher Nidwyrm is hiding, use honey waffles to lure it out of the ground"
+            }
+        }
+    },
+    "204": {
+        "Name": "\"Professional Safe House\"",
+        "LevelInfos": {
+            "1": {
+                "Icon": "medalicon/achv_hide_secretbase_v1d7_lv01",
+                "ConditionDesc": "In the Old Dam, reach the Secret Base"
+            }
+        }
+    },
+    "203": {
+        "Name": "\"A Good Marriage Needs Good Kohl\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_quest_sm2l11m1_lv02",
+                "ConditionDesc": "Complete side mission [The Day After]"
+            }
+        }
+    },
+    "205": {
+        "Name": "\"I Dream of Honey Waffles\"",
+        "LevelInfos": {
+            "2": {
+                "Icon": "medalicon/achv_quest_sweetpie_lv02",
+                "ConditionDesc": "Complete side mission [I Dream of Honey Waffles]"
+            }
+        }
     }
 }
