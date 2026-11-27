@@ -3720,5 +3720,118 @@
                 }
             }
         ]
+    },
+    "58": {
+        "StrId": "chr_0040_sweetpie",
+        "NameHash": "7727970671650033863",
+        "Rarity": 6,
+        "Element": "Natural",
+        "Profession": "VANGUARD",
+        "WeaponType": "Lance",
+        "MainAttrId": 39,
+        "SubAttrId": 40,
+        "AttributeNodes": {
+            "chr_0040_sweetpie_1": {
+                "39": 10.0
+            },
+            "chr_0040_sweetpie_3": {
+                "39": 15.0
+            },
+            "chr_0040_sweetpie_5": {
+                "39": 15.0
+            },
+            "chr_0040_sweetpie_7": {
+                "39": 20.0
+            }
+        },
+        "SkillInfoMap": {
+            "chr_0040_sweetpie_ComboSkill": {
+                "Icon": "/ui/ef/skillicon/icon_combo_skill_sweetpie_01.png",
+                "Element": "Natural"
+            },
+            "chr_0040_sweetpie_NormalAttack": {
+                "Icon": "/ui/ef/skillicon/icon_attack_lance.png",
+                "Element": "Physical"
+            },
+            "chr_0040_sweetpie_NormalSkill": {
+                "Icon": "/ui/ef/skillicon/icon_skill_sweetpie_01.png",
+                "Element": "Natural"
+            },
+            "chr_0040_sweetpie_UltimateSkill": {
+                "Icon": "/ui/ef/skillicon/icon_ultimate_skill_sweetpie_01.png",
+                "Element": "Natural"
+            }
+        },
+        "NodeSkillMap": {
+            "chr_0040_sweetpie_passive_skill_0_1": {
+                "Icon": "/ui/ef/icon_talent_sweetpie_01.png",
+                "Level": 1,
+                "Index": 0,
+                "Type": 4
+            },
+            "chr_0040_sweetpie_passive_skill_0_2": {
+                "Icon": "/ui/ef/icon_talent_sweetpie_01.png",
+                "Level": 2,
+                "Index": 0,
+                "Type": 4
+            },
+            "chr_0040_sweetpie_passive_skill_0_3": {
+                "Icon": "/ui/ef/icon_talent_sweetpie_01.png",
+                "Level": 3,
+                "Index": 0,
+                "Type": 4
+            },
+            "chr_0040_sweetpie_passive_skill_1_1": {
+                "Icon": "/ui/ef/icon_talent_sweetpie_02.png",
+                "Level": 1,
+                "Index": 1,
+                "Type": 4
+            },
+            "chr_0040_sweetpie_passive_skill_1_2": {
+                "Icon": "/ui/ef/icon_talent_sweetpie_02.png",
+                "Level": 2,
+                "Index": 1,
+                "Type": 4
+            },
+            "fac_chr_0040_sweetpie_0_1": {
+                "Icon": "/ui/ef/spaceshipskillicon/facskill_spaceship_manufacture_efficiency.png",
+                "Level": 1,
+                "Index": 2,
+                "Type": 5
+            },
+            "fac_chr_0040_sweetpie_0_2": {
+                "Icon": "/ui/ef/spaceshipskillicon/facskill_spaceship_manufacture_efficiency.png",
+                "Level": 2,
+                "Index": 2,
+                "Type": 5
+            },
+            "fac_chr_0040_sweetpie_1_1": {
+                "Icon": "/ui/ef/spaceshipskillicon/facskill_spaceship_manufacture_power_consume.png",
+                "Level": 1,
+                "Index": 3,
+                "Type": 5
+            },
+            "fac_chr_0040_sweetpie_1_2": {
+                "Icon": "/ui/ef/spaceshipskillicon/facskill_spaceship_manufacture_power_consume.png",
+                "Level": 2,
+                "Index": 3,
+                "Type": 5
+            }
+        },
+        "PotAttributes": [
+            {
+                "Level": 2,
+                "Attrs": {
+                    "39": {
+                        "Value": 20.0,
+                        "Formula": "BaseAddition"
+                    },
+                    "54": {
+                        "Value": 0.1,
+                        "Formula": "BaseAddition"
+                    }
+                }
+            }
+        ]
     }
 }
